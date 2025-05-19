@@ -1,25 +1,19 @@
 import React, { useState } from "react";
+import { useForm } from "react-hook-form";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import "./Contact.css";
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: { errors, isSubmitSuccessful },
+  } = useForm();
 
-  const [submitted, setSubmitted] = useState(false);
-
-  const handleChange = (e) => {
-    setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Burada formu serverə göndərmək üçün API çağırışı edə bilərsən.
-    setSubmitted(true);
-    setFormData({ name: "", email: "", message: "" });
+  const onSubmit = (data) => {
+    console.log("Form Data:", data);
+    reset();
   };
 
   return (
@@ -70,42 +64,49 @@ const Contact = () => {
           </div>
         </div>
 
-        <form className="contact-form" onSubmit={handleSubmit}>
+        <form className="contact-form" onSubmit={handleSubmit(onSubmit)}>
           <label htmlFor="name">Adınız</label>
           <input
             type="text"
             id="name"
-            name="name"
-            value={formData.name}
-            onChange={handleChange}
-            required
+            {...register("name", { required: "Adınızı daxil edin" })}
             placeholder="Adınızı daxil edin"
           />
+          {errors.name && (
+            <p className="error-message">{errors.name.message}</p>
+          )}
 
           <label htmlFor="email">Email</label>
           <input
             type="email"
             id="email"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-            required
+            {...register("email", {
+              required: "Email daxil edin",
+              pattern: {
+                value: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
+                message: "Düzgün email ünvanı daxil edin",
+              },
+            })}
             placeholder="Email ünvanınızı daxil edin"
           />
+          {errors.email && (
+            <p className="error-message">{errors.email.message}</p>
+          )}
 
           <label htmlFor="message">Mesajınız</label>
           <textarea
             id="message"
-            name="message"
             rows="5"
-            value={formData.message}
-            onChange={handleChange}
-            required
+            {...register("message", { required: "Mesajınızı yazın" })}
             placeholder="Mesajınızı yazın"
           ></textarea>
+          {errors.message && (
+            <p className="error-message">{errors.message.message}</p>
+          )}
 
           <button type="submit">Göndər</button>
-          {submitted && (
+
+          {isSubmitSuccessful && (
             <p className="success-message">Mesajınız uğurla göndərildi!</p>
           )}
         </form>

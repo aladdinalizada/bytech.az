@@ -119,3 +119,17 @@
     gap: 40px;
   }
 }
+.error-message {
+  color: #e74c3c;
+  font-size: 0.9rem;
+  margin-top: -15px;
+  margin-bottom: 15px;
+}
+
+.success-message {
+  margin-top: 10px;
+  color: #27ae60;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+}
