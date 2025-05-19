@@ -1,11 +1,14 @@
 import React, { useContext, useRef, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { AppContext } from "../../context/AppContext";
+// import Icons
 import { FaBars, FaTimes } from "react-icons/fa";
-import "./index.css";
 import Logo from "/public/logo.png";
 import LanguageMenu from "../../components/LanguageMenu/LanguageMenu";
+// import Link
 import { Link } from "react-router-dom";
+// import "./index.css";
+import "./index.css";
 
 const Header = () => {
   const { t } = useTranslation();
@@ -45,9 +48,14 @@ const Header = () => {
           </li>
 
           {/* <li>{t("about")}</li> */}
-          <li>{t("services")}</li>
+          <li>
+            <Link to="/services">{t("services")}</Link>
+          </li>
           <li>
             <Link to="/contact">{t("contact")}</Link>
+          </li>
+          <li className="mbilelang">
+            <LanguageMenu />
           </li>
           <li className="close-btn" onClick={closeMenu}>
             {t("exit")}

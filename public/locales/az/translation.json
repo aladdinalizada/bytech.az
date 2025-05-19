@@ -3,19 +3,54 @@
   "about": "Haqqımızda",
   "services": "Xidmətlər",
   "contact": "Əlaqə",
+  "serviceslist": {
+    "itconsulting": {
+      "name": "IT Konsultasiya",
+      "description": "Biznesinizi Gücləndirəcək İnnovativ Texnoloji Həlləri",
+      "options": [
+        "Peşəkar məsləhət: Texnoloji sahədə ən effektiv həllər üçün mütəxəssislərimizdən məsləhət alın.",
+        "Təhlükəsizlik və optimizasiya: Şirkətinizin İT infrastrukturu üzərində təhlükəsizlik tədbirləri və optimizasiya prosesləri.",
+        "Strategiya və inkişaf: Biznesinizin ehtiyaclarına uyğun müasir texnoloji həllərin hazırlanması və tətbiqi.",
+        "Sizə xüsusi yanaşma: İT konsaltinq xidmətlərimiz, şirkətinizin xüsusiyyətlərinə və məqsədlərinə əsaslanaraq fərdiləşdirilir.",
+        "Texnologiyaların düzgün seçimi: Sizin üçün ən uyğun proqram təminatı və sistemlər barədə peşəkar tövsiyələr."
+      ]
+    },
+    "itsupport": {
+      "name": "IT Dəstək",
+      "description": "Texniki Problemlərinizi Həll Edin",
+      "options": [
+        "24/7 dəstək: İstənilən vaxt texniki dəstək xidmətimizdən yararlanın.",
+        "Problemlərin sürətli həlli: İT problemlərinizə tez və effektiv cavab veririk.",
+        "Müxtəlif platformalarda dəstək: Windows, Linux, MacOS və mobil platformalarda dəstək xidmətləri.",
+        "Uzaqdan və yerində dəstək: İstədiyiniz yerdən texniki dəstək xidmətlərimizdən yararlanın.",
+        "İT infrastrukturunun monitorinqi: Sistemlərinizi izləyərək proaktiv yanaşma ilə problemləri aradan qaldırırıq."
+      ]
+    },
+    "corporativemail": {
+      "name": "Korporativ E-mail",
+      "description": "Peşəkar E-mail Həlləri ilə İletişimi Gücləndirin",
+      "options": [
+        "Fərdi domen adı: Şirkətinizin adını əks etdirən e-mail ünvanları yaradın.",
+        "Təhlükəsizlik və şifrələmə: E-maillərinizi təhlükəsiz saxlayın.",
+        "İstifadəçi dostu interfeys: İstifadəsi asan e-mail müştərisi ilə işinizi asanlaşdırın.",
+        "Mobil uyğunluq: E-maillərinizi istənilən cihazdan rahatlıqla yoxlayın.",
+        "E-mail marketinq alətləri: Müştərilərinizlə effektiv əlaqə qurun."
+      ]
+    },
+    "cloudmail": {
+      "name": "Cloud E-mail",
+      "description": "Bulud Texnologiyaları ilə İletişimi Gücləndirin",
+      "options": [
+        "Bulud əsaslı e-mail həlləri: E-maillərinizi buludda saxlayın.",
+        "İstənilən yerdən giriş: İnternet bağlantısı olan hər yerdən e-maillərinizi yoxlayın.",
+        "Təhlükəsizlik və ehtiyat nüsxəsi: E-maillərinizi təhlükəsiz saxlayın və ehtiyat nüsxələrini yaradın.",
+        "İş birliyi alətləri: Komanda üzvlərinizlə asanlıqla əməkdaşlıq edin.",
+        "E-mail marketinq alətləri: Müştərilərinizlə effektiv əlaqə qurun."
+      ]
+    }
+  },
   "hero": {
     "title": "Sadəliklə Texnologiya, Xüsusi Həllər",
     "desc": "Bytech.az ilə müasir, sadə və güclü IT həlləri təqdim edin."
-  },
-  "itconsulting": {
-    "name": "IT Konsultasiya",
-    "description": "Biznesinizi Gücləndirəcək İnnovativ Texnoloji Həlləri",
-    "options": [
-      "Peşəkar məsləhət: Texnoloji sahədə ən effektiv həllər üçün mütəxəssislərimizdən məsləhət alın.",
-      "Təhlükəsizlik və optimizasiya: Şirkətinizin İT infrastrukturu üzərində təhlükəsizlik tədbirləri və optimizasiya prosesləri.",
-      "Strategiya və inkişaf: Biznesinizin ehtiyaclarına uyğun müasir texnoloji həllərin hazırlanması və tətbiqi.",
-      "Sizə xüsusi yanaşma: İT konsaltinq xidmətlərimiz, şirkətinizin xüsusiyyətlərinə və məqsədlərinə əsaslanaraq fərdiləşdirilir.",
-      "Texnologiyaların düzgün seçimi: Sizin üçün ən uyğun proqram təminatı və sistemlər barədə peşəkar tövsiyələr."
-    ]
   }
 }

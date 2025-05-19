@@ -1,21 +1,56 @@
 {
   "home": "Home",
-  "about": "About",
+  "about": "About Us",
   "services": "Services",
   "contact": "Contact",
-  "hero": {
-    "title": "Technology with Simplicity, Tailored Solutions",
-    "desc": "Deliver modern, simple, and powerful IT solutions with Bytech.az."
+  "serviceslist": {
+    "itconsulting": {
+      "name": "IT Consulting",
+      "description": "Innovative Technology Solutions to Strengthen Your Business",
+      "options": [
+        "Professional advice: Get expert consultation for the most effective technological solutions.",
+        "Security and optimization: Security measures and optimization processes on your company's IT infrastructure.",
+        "Strategy and development: Development and implementation of modern technological solutions tailored to your business needs.",
+        "Personalized approach: Our IT consulting services are customized based on your company's features and goals.",
+        "Proper technology selection: Professional recommendations on the best software and systems for you."
+      ]
+    },
+    "itsupport": {
+      "name": "IT Support",
+      "description": "Solve Your Technical Issues",
+      "options": [
+        "24/7 support: Benefit from our technical support services anytime.",
+        "Quick problem resolution: We respond quickly and effectively to your IT issues.",
+        "Support on various platforms: Support services on Windows, Linux, MacOS, and mobile platforms.",
+        "Remote and on-site support: Use our technical support services wherever you are.",
+        "IT infrastructure monitoring: We proactively monitor your systems and resolve issues."
+      ]
+    },
+    "corporativemail": {
+      "name": "Corporate Email",
+      "description": "Strengthen Communication with Professional Email Solutions",
+      "options": [
+        "Custom domain name: Create email addresses that reflect your company’s name.",
+        "Security and encryption: Keep your emails secure.",
+        "User-friendly interface: Simplify your work with an easy-to-use email client.",
+        "Mobile compatibility: Access your emails easily from any device.",
+        "Email marketing tools: Communicate effectively with your customers."
+      ]
+    },
+    "cloudmail": {
+      "name": "Cloud Email",
+      "description": "Enhance Communication with Cloud Technologies",
+      "options": [
+        "Cloud-based email solutions: Store your emails in the cloud.",
+        "Access from anywhere: Check your emails from anywhere with internet connection.",
+        "Security and backups: Keep your emails safe and create backups.",
+        "Collaboration tools: Easily collaborate with your team members.",
+        "Email marketing tools: Communicate effectively with your customers."
+      ]
+    }
   },
-  "itconsulting": {
-    "name": "IT Konsultasiya",
-    "description": "Biznesinizi Gücləndirəcək İnnovativ Texnoloji Həlləri",
-    "options": [
-      "Peşəkar məsləhət: Texnoloji sahədə ən effektiv həllər üçün mütəxəssislərimizdən məsləhət alın.",
-      "Təhlükəsizlik və optimizasiya: Şirkətinizin İT infrastrukturu üzərində təhlükəsizlik tədbirləri və optimizasiya prosesləri.",
-      "Strategiya və inkişaf: Biznesinizin ehtiyaclarına uyğun müasir texnoloji həllərin hazırlanması və tətbiqi.",
-      "Sizə xüsusi yanaşma: İT konsaltinq xidmətlərimiz, şirkətinizin xüsusiyyətlərinə və məqsədlərinə əsaslanaraq fərdiləşdirilir.",
-      "Texnologiyaların düzgün seçimi: Sizin üçün ən uyğun proqram təminatı və sistemlər barədə peşəkar tövsiyələr."
-    ]
+  "hero": {
+    "title": "Technology with Simplicity, Custom Solutions",
+    "desc": "Deliver modern, simple, and powerful IT solutions with Bytech.az."
   }
 }
