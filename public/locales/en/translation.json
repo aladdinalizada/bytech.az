@@ -52,5 +52,17 @@
   "hero": {
     "title": "Technology with Simplicity, Custom Solutions",
     "desc": "Deliver modern, simple, and powerful IT solutions with Bytech.az."
-  }
+  },
+  "introTitle": "Why Bytech.az?",
+  "footerabout": "With Bytech.az, we offer modern, simple, and powerful IT solutions. Manage your business more efficiently, securely, and quickly with our services. We ensure the digital growth of your business with professional technological solutions.",
+  "servicesTitle": "Our Services",
+  "contactTitle": "Contact",
+  "location": "Baku, Azerbaijan",
+  "email": "info@bytech.az",
+  "phone": "+994 10 529 18 29",
+  "socialTitle": "Connect with us on social media:",
+  "facebook": "Facebook",
+  "instagram": "Instagram",
+  "linkedin": "LinkedIn",
+  "ourServices": "Our Services"
 }

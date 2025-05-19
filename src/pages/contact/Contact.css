@@ -1,0 +1,121 @@
+.contact-container {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 0 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.contact-content {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-info {
+  flex: 1 1 350px;
+  color: #34495e;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.contact-info p {
+  margin-bottom: 18px;
+}
+
+.contact-info a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.social-media {
+  margin-top: 30px;
+}
+
+.social-media p {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.icons a {
+  font-size: 1.8rem;
+  color: #2980b9;
+  margin-right: 20px;
+  transition: color 0.3s ease;
+}
+
+.icons a:hover {
+  color: #1c5980;
+}
+
+.contact-form {
+  flex: 1 1 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #34495e;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  resize: vertical;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #2980b9;
+  outline: none;
+}
+
+.contact-form button {
+  padding: 12px 20px;
+  background-color: #2980b9;
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #1c5980;
+}
+
+.success-message {
+  margin-top: 10px;
+  color: green;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/* Mobil üçün */
+@media (max-width: 768px) {
+  .contact-content {
+    flex-direction: column;
+    gap: 40px;
+  }
+}

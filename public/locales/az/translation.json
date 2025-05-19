@@ -52,5 +52,17 @@
   "hero": {
     "title": "Sadəliklə Texnologiya, Xüsusi Həllər",
     "desc": "Bytech.az ilə müasir, sadə və güclü IT həlləri təqdim edin."
-  }
+  },
+  "introTitle": "Niyə Bytech.az?",
+  "footerAbout": "Bytech.az ilə müasir, sadə və güclü IT həlləri təklif edirik. Bizim xidmətlərimizlə işinizi daha effektiv, təhlükəsiz və sürətli idarə edin. Texnologiya sahəsindəki peşəkar həllərimiz ilə biznesinizin rəqəmsal inkişafını təmin edirik.",
+  "servicesTitle": "Xidmətlərimiz",
+  "contactTitle": "Əlaqə",
+  "location": "Bakı, Azərbaycan",
+  "email": "info@bytech.az",
+  "phone": "+994 10 529 18 29",
+  "socialTitle": "Bizimlə sosial şəbəkələrdə əlaqə saxlayın:",
+  "facebook": "Facebook",
+  "instagram": "Instagram",
+  "linkedin": "LinkedIn",
+  "ourServices": "Xidmətlərimiz"
 }
