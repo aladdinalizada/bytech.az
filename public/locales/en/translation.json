@@ -1,0 +1,21 @@
+{
+  "home": "Home",
+  "about": "About",
+  "services": "Services",
+  "contact": "Contact",
+  "hero": {
+    "title": "Technology with Simplicity, Tailored Solutions",
+    "desc": "Deliver modern, simple, and powerful IT solutions with Bytech.az."
+  },
+  "itconsulting": {
+    "name": "IT Konsultasiya",
+    "description": "Biznesinizi Gücləndirəcək İnnovativ Texnoloji Həlləri",
+    "options": [
+      "Peşəkar məsləhət: Texnoloji sahədə ən effektiv həllər üçün mütəxəssislərimizdən məsləhət alın.",
+      "Təhlükəsizlik və optimizasiya: Şirkətinizin İT infrastrukturu üzərində təhlükəsizlik tədbirləri və optimizasiya prosesləri.",
+      "Strategiya və inkişaf: Biznesinizin ehtiyaclarına uyğun müasir texnoloji həllərin hazırlanması və tətbiqi.",
+      "Sizə xüsusi yanaşma: İT konsaltinq xidmətlərimiz, şirkətinizin xüsusiyyətlərinə və məqsədlərinə əsaslanaraq fərdiləşdirilir.",
+      "Texnologiyaların düzgün seçimi: Sizin üçün ən uyğun proqram təminatı və sistemlər barədə peşəkar tövsiyələr."
+    ]
+  }
+}

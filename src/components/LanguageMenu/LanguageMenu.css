@@ -1,0 +1,11 @@
+.menu-container {
+  display: inline-block;
+  font-family: sans-serif;
+  /* margin: 20px; */
+}
+
+.language-select select {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #aaa;
+}

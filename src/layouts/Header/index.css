@@ -1,0 +1,98 @@
+/* Genel Header Stili */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8f8f8;
+  position: relative;
+  height: 100px;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.logo img {
+  width: 180px;
+}
+
+/* Hamburger Menüsü */
+.hamburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Navigasyon */
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  cursor: pointer;
+  padding: 8px 12px;
+  transition: background-color 0.3s ease;
+  font-size: 19px;
+}
+
+.nav-links li:hover {
+  background-color: #eaeaea;
+  border-radius: 5px;
+}
+
+.rightcorner {
+  margin-left: 20px;
+}
+
+/* Mobil Görünüm */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .rightcorner {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+  .nav-links .close-btn {
+    display: block;
+  }
+}
+
+.nav-links .close-btn {
+  display: none;
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+}
